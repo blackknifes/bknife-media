@@ -5,6 +5,7 @@ services:
     container_name: alist
     volumes:
       - /mnt/sda/config/alist:/opt/alist/data
+      - /mnt/sda:/mnt/sda
     ports:
       - 5244:5244
     environment:
